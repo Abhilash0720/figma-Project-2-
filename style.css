@@ -1,0 +1,165 @@
+:root{
+   --orange--color: #F17228;
+   --grey--color: #757575;
+   --ligthdark--color: #F1722833;
+  ---black--color:#353535;
+  --yellow--color:#FFB30E;
+  --ligth--color:#BBBBBB;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    font-family: 'Qwigley', cursive;
+    color:  #FFB30E;
+    font-size: 80px;
+}
+.btnnav{
+    width: 118px;
+    height: 46px;
+    color: #FFB800;
+    background-color: white;
+}
+.btnnav::before{
+    content: url(./image/user.svg);
+}
+
+::placeholder{
+    text-align: center;  
+}
+  header{
+    background-image: url(./image/Rectangle\ 22.png);
+    display: flex;
+    
+} 
+.content{
+    text-align: center;
+    margin-top: 100px;
+}
+.head1{
+    font-family: 'Qwigley', cursive;
+    width: 600px;
+    height: 88px;
+    color:  #FFFFFF;
+
+}
+.head4{
+    font-size: 10px
+    
+}
+.btn1{
+    display: flex;
+    margin-top: 40px;
+    gap: 10px;
+}
+.btn2{
+     margin-top: 40px;
+} 
+.ff::before{
+ content: url(./image/header\ search.svg);
+    
+}
+.firstimg{
+    margin-left:400px;
+    color: aliceblue;
+}
+button{
+    background-color: #F17228;
+    width: 140px;
+    height: 40px;
+    color: white;
+}
+.whitetxt{
+    background-color: #FFFFFF;
+    margin-left: 80px;
+}
+.btnsearch{
+    width: 360px;
+    height: 40px;
+}
+.btnsearch::before{
+    content: url(./image/mapicon.svg);
+}
+.deli{
+    color: #F17228;
+    background-color:  #F172281A;  
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+ .card{
+float: left;
+display: flex;
+margin-top: 60px;
+border-radius: 10px;
+ }
+  .section2{
+    display: flex;
+    justify-content: center;
+ } 
+ .heads2{
+    text-align: center;
+    margin-top: 80px;
+ }
+ .section3{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    
+ }
+ .heading3{
+    margin-left: 100px;
+    margin-top: 50px;
+ }
+ .section4{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+ }
+ .text4{
+    margin-top: 200px;
+ }
+ .sec4img{
+    margin-left: 100px;
+ }
+ .sec4para{
+    color: #616161B0;
+
+
+ }
+ .btnproceed{
+    width: 400px;
+    height: 60px;
+    background-color: #FFB30E;
+ }
+ .btnproceed::after{
+    content: url(./image/CHEVRON-RIGHT.svg);
+ }
+.sec5head{
+    text-align: center;
+    margin-top: 60px;
+    color: #212121;
+}
+.section5{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+}
+.footerpart{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 100px;
+    background-color: #090D12;
+    color: #FFFFFF
+    ;
+}
